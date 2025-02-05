@@ -1,0 +1,8 @@
+## [NOC v1.22] - 2025-02-04
+
+### Added
+- Timeout configuration for orchestrator connection requests in the `noc.ini` section `[NOC]`.
+
+### Fixed
+- CMD or BAT files not executing when the robot is a ZIP.
+- Cron data not being split when the user sets up cron jobs with custom information and the process has command-line data in the current instance.
